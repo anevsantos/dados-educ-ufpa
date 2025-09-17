@@ -9,8 +9,8 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 ### Cronograma e Materiais
 
 * **Encontro 1: Boas-vindas**
-    * [Apresentação de Slides](dados-educ-ufpa/cod_municipio_pa)
-    * [Atividade prática - Consulta municípios](https://github.com/anevsantos/dados-educ-ufpa/blob/main/cod_municipio_pa)
+    * [Apresentação de Slides]()
+    * [Atividade prática - Consulta municípios](cod_municipio_pa)
 
 * **Encontro 2: Onde Vivem os Dados Educacionais?**
     * [Apresentação de Slides](link-para-o-arquivo)
