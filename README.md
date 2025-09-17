@@ -10,7 +10,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
 * **Encontro 1: Boas-vindas**
     * [Apresentação de Slides](link-para-o-arquivo-dentro-do-github)
-    * [Links úteis](link-para-o-arquivo-de-links)
+    * [Atividade prática - Consulta municípios](https://github.com/anevsantos/dados-educ-ufpa/cod_municipio_pa)
 
 * **Encontro 2: Onde Vivem os Dados Educacionais?**
     * [Apresentação de Slides](link-para-o-arquivo)
