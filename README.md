@@ -7,11 +7,13 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 ---
 
 ### Cronograma e Materiais
-* **Fonte: Base dos dados**
-    * [Acesso](https://basedosdados.org/)    
+* **Materiais**
+    * [Cronograma](cronograma_oficina_dados.pdf)
+    * [Base dos Dados](https://basedosdados.org/)    
 
 * **Encontro 1: Fundamentos de dados**
     * [Apresentação de Slides](mod1_1.pdf)
+    * [Exemplos de dados educacionais](apoio_mod1.pdf) 
     
 * **Encontro 2: Onde Vivem os Dados Educacionais?**
     * [Apresentação de Slides](mod1_2.pdf)
