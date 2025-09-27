@@ -6,7 +6,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
 ---
 
-### Cronograma e Materiais
+### 📅 Cronograma e Materiais
 * **Materiais**
     * [Cronograma](cronograma_oficina_dados.pdf)
     * [Base dos Dados](https://basedosdados.org/)    
