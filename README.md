@@ -2,7 +2,7 @@
 
 Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos os materiais de apoio necessários para cada encontro.
 
-**Instrutor(a):** [Leidiane Santos]
+**Instrutor(a):** Leidiane Santos
 
 ---
 
@@ -10,15 +10,32 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 * **Fonte: Base dos dados**
     * [Acesso](https://basedosdados.org/)    
 
-* **Encontro 1: Boas-vindas**
-    * [Apresentação de Slides]()
-    * [Atividade prática - Consulta municípios](cod_municipio_pa)
-
+* **Encontro 1: Fundamentos de dados**
+    * [Apresentação de Slides](mod1_1.pdf)
+    
 * **Encontro 2: Onde Vivem os Dados Educacionais?**
-    * [Apresentação de Slides](link-para-o-arquivo)
+    * [Apresentação de Slides](mod1_2.pdf)
+   
+
+* **Encontro 3: Explorando sem código**
+  
+* **Encontro 4: Grande volumes de dados**
+   *  [Atividade prática - Consulta municípios](cod_municipio_pa)
+
+* **Encontro 5: Primeira consulta**
+
+* **Encontro 6: Filtrando dados educacionais do Pará**
+
+* **Encontro 7: Preparação para o encontro presencial - Questões de pesquisa**
+
+* **Encontro 8: Preparação para o encontro presencial - Variáveis de interesse**
+
+* **Encontro 9: Encontro presencial - Como construir a visualização**
+
+* **Encontro 9: Encontro presencial - Apresentação de mini projetos**
 
 * **Códigos SQL Utilizados na Oficina**
-    * [Ver todos os scripts na pasta 'Scripts_SQL'](link-para-a-pasta)
+    * [Ver todos os scripts na pasta 'Scripts_SQL'](cod_municipio_pa)
 
 * **Datasets de Exemplo**
     * [Ver todos os datasets na pasta 'Datasets_Exemplo'](link-para-a-pasta)
@@ -26,7 +43,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 ## 📂 Estrutura do Repositório
 
 - **Scripts_SQL/**: contém as queries SQL que serão utilizadas nos encontros; cada arquivo `.sql` corresponde a um tema.  
-- **Datasets_Exemplo/**: arquivos menores de exemplo para prática local ou comparação, caso alguém queira baixar dados locais.  
+- **Datasets_Exemplo/**:   
 - **Slides/**: apresentações dos encontros com aspectos conceituais, exemplos de análise, estatísticas.  
 
 ---
@@ -35,7 +52,6 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
 - Conta Google com acesso ao **BigQuery**  
 - Projeto criado no **Google Cloud**  
-- Noções básicas de SQL (seleção, filtros, agregação)  
 - Acesso à internet para usar o console BigQuery  
 
 ---
@@ -47,4 +63,4 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
    git clone https://github.com/anevsantos/dados-educ-ufpa.git
 
 
-Qualquer dúvida, entre em contato pelo email: [seu email]
+Qualquer dúvida, entre em contato pelo email: [leidiane.santos@ifap.edu.br]
