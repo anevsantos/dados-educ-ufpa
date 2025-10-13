@@ -18,8 +18,9 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 * **Encontro 2: Onde Vivem os Dados Educacionais?**
     * [Apresentação de Slides](mod1_2.pdf)
    
-
 * **Encontro 3: Explorando sem código**
+   *  [QEdu](https://qedu.org.br/)
+   *  [Atividade prática - Distorção idade-série Anos Finais-PA](distorcao_idade_serie_pa_2023-AF.xlsx)
   
 * **Encontro 4: Grande volumes de dados**
    *  [Atividade prática - Consulta municípios](cod_municipio_pa)
@@ -38,9 +39,6 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
 * **Códigos SQL Utilizados na Oficina**
     * [Ver todos os scripts na pasta 'Scripts_SQL'](cod_municipio_pa)
-
-* **Datasets de Exemplo**
-    * [Ver todos os datasets na pasta 'Datasets_Exemplo'](link-para-a-pasta)
 
 ## 📂 Estrutura do Repositório
 
