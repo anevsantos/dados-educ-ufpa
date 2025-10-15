@@ -21,6 +21,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 * **Encontro 3: Explorando sem código**
    *  [QEdu](https://qedu.org.br/)
    *  [Atividade prática - Distorção idade-série Anos Finais-PA](distorcao_idade_serie_pa_2023-AF.xlsx)
+   *  [Atividade prática - IDEB - Anos Finais - PA](ideb_territorios-15-2023-AF.xlsx)
   
 * **Encontro 4: Grande volumes de dados**
    *  [Atividade prática - Consulta municípios](cod_municipio_pa)
