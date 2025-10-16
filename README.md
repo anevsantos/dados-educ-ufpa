@@ -24,6 +24,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
    *  [Atividade prática - IDEB - Anos Finais - PA](ideb_territorios-15-2023-AF.xlsx)
       **Tarefa: Registrar conta no BigQuery**
    * [Orientações](https://basedosdados.org/docs/access_data_bq)
+     
 
    <img width="1136" height="391" alt="Captura de tela de 2025-10-16 10-44-27" src="https://github.com/user-attachments/assets/38305027-a7e7-455b-9a73-d4c39f9d6958" />
 
