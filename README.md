@@ -22,7 +22,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
    *  [QEdu](https://qedu.org.br/)
    *  [Atividade prática - Distorção idade-série Anos Finais-PA](distorcao_idade_serie_pa_2023-AF.xlsx)
    *  [Atividade prática - IDEB - Anos Finais - PA](ideb_territorios-15-2023-AF.xlsx)
-      **Tarefa: Registrar conta no BigQuery**
+   *  **Tarefa: Registrar conta no BigQuery**
    * [Orientações](https://basedosdados.org/docs/access_data_bq)
      
 
