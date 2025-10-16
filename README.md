@@ -28,7 +28,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
    <img width="1136" height="391" alt="Captura de tela de 2025-10-16 10-44-27" src="https://github.com/user-attachments/assets/38305027-a7e7-455b-9a73-d4c39f9d6958" />
 
-  Você deve cadastrar uuma conta no serviço [BigQuery (Google)](https://console.cloud.google.com) 
+  Você deve cadastrar uma conta no serviço [BigQuery (Google)](https://console.cloud.google.com) 
 
 * **Encontro 4: Grande volumes de dados**
    *  [Atividade prática - Consulta municípios](cod_municipio_pa)
