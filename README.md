@@ -32,7 +32,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
   Você deve cadastrar uma conta no serviço [BigQuery (Google)](https://console.cloud.google.com) 
 
 * **Encontro 4: Grande volumes de dados**
-   *  [Atividade prática - Consulta municípios](cod_municipio_pa)
+   *  [Atividade prática - Consulta municípios](scripts)
 
 * **Encontro 5: Primeira consulta**
 * * [Aprender SQL- Este site do W3Schools contém um tutorial abrangente para aprender SQL](https://www.w3schools.com/sql/default.asp)
@@ -48,7 +48,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 * **Encontro 9: Encontro presencial - Apresentação de mini projetos**
 
 * **Códigos SQL Utilizados na Oficina**
-    * [Ver todos os scripts na pasta 'Scripts_SQL'](cod_municipio_pa)
+    * [Ver todos os scripts na pasta 'Scripts_SQL'](scripts)
 
 ## 📂 Estrutura do Repositório
 
