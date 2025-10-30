@@ -1,0 +1,39 @@
+-- Script 1: Consulta os munićipios do Prá
+SELECT
+  id_municipio,
+  nome
+FROM
+  `basedosdados.br_bd_diretorios_brasil.municipio`
+WHERE
+  sigla_uf = 'PA'
+ORDER BY
+  nome
+
+-- Script 2: Escolas do Pará em 2023
+SELECT
+  ano,
+  id_escola
+  id_municipio,
+  rede,
+FROM
+  `basedosdados.br_inep_censo_escolar.escola`
+WHERE
+  sigla_uf = 'PA'
+  AND ano = 2023
+  LIMIT 100
+
+  -- Script 3: Contando o total de escolas por tipo no Pará (2022)
+SELECT
+  rede,
+  COUNT(id_escola) AS total_de_escolas
+FROM
+  `basedosdados.br_inep_censo_escolar.escola`
+WHERE
+  sigla_uf = 'PA'
+  AND ano = 2023
+GROUP BY
+  rede
+ORDER BY
+  total_de_escolas DESC
+
+  

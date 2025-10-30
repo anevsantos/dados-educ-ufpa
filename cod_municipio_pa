@@ -1,9 +1,0 @@
-SELECT
-  id_municipio,
-  nome
-FROM
-  `basedosdados.br_bd_diretorios_brasil.municipio`
-WHERE
-  sigla_uf = 'PA'
-ORDER BY
-  nome
