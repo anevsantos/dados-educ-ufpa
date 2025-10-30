@@ -35,7 +35,8 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
    *  [Atividade prática - Consulta municípios](cod_municipio_pa)
 
 * **Encontro 5: Primeira consulta**
-
+* * [Aprender SQL- Este site do W3Schools contém um tutorial abrangente para aprender SQL](https://www.w3schools.com/sql/default.asp)
+    
 * **Encontro 6: Filtrando dados educacionais do Pará**
 
 * **Encontro 7: Preparação para o encontro presencial - Questões de pesquisa**
