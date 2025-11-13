@@ -39,22 +39,16 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
     
 * **Encontro 6: Filtrando dados educacionais do Pará**
 
-* **Encontro 7: Preparação para o encontro presencial - Questões de pesquisa**
+* **Encontro 7: Questões de pesquisa**
+*  [Atividade prática - Scripts completos de exemplo](aula_final.txt)
+*  [Passo a passo de como construir a consulta](legenda_query.pdf)
 
-* **Encontro 8: Preparação para o encontro presencial - Variáveis de interesse**
+* **Encontro 8: Como construir a visualização**
 
-* **Encontro 9: Encontro presencial - Como construir a visualização**
-
-* **Encontro 9: Encontro presencial - Apresentação de mini projetos**
+* **Encontro 9: Apresentação de mini projetos**
 
 * **Códigos SQL Utilizados na Oficina**
     * [Ver todos os scripts na pasta 'Scripts_SQL'](scripts)
-
-## 📂 Estrutura do Repositório
-
-- **Scripts_SQL/**: contém as queries SQL que serão utilizadas nos encontros; cada arquivo `.sql` corresponde a um tema.  
-- **Datasets_Exemplo/**:   
-- **Slides/**: apresentações dos encontros com aspectos conceituais, exemplos de análise, estatísticas.  
 
 ---
 
@@ -68,7 +62,7 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
 ## 🛠️ Como usar os scripts SQL
 
-1. Clone este repositório ou faça download dos arquivos `.sql` de seu interesse.  
+1. Faça download dos arquivos de seu interesse.  
    ```bash
    git clone https://github.com/anevsantos/dados-educ-ufpa.git
 
