@@ -54,5 +54,177 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
 ## 🛠️ Scripts SQL
 
+## Selecionar colunas específicas:
+
+```sql
+SELECT
+  ano,
+  sigla_uf,
+  id_escola
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2022
+LIMIT 10;
+```
+
+---
+
+## Filtrar apenas escolas do Amapá (AP):
+
+```sql
+SELECT
+  ano,
+  sigla_uf,
+  id_escola
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2024
+AND sigla_uf = 'AP'
+LIMIT 10;
+```
+
+**O que acontece se eu substituir por 'MA'?**
+
+---
+
+## Contar as escolas por estado
+
+```sql
+SELECT
+  sigla_uf,
+  COUNT(*) AS total_escolas
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2022
+  AND sigla_uf IN ('PA', 'AP', 'MA')
+GROUP BY sigla_uf
+ORDER BY total_escolas DESC;
+```
+
+> **Interpretação:** quantas escolas foram registradas no Censo Escolar 2022 em cada estado selecionado.
+
+---
+
+## Somar o total de matriculas
+
+```sql
+SELECT
+  sigla_uf,
+  SUM(quantidade_matricula_educacao_basica) AS total_matriculas
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2022
+  AND sigla_uf IN ('PA', 'AP', 'MA')
+GROUP BY sigla_uf;
+```
+
+---
+
+## Total matrícula por rede
+
+```sql
+SELECT
+  sigla_uf,
+  rede,
+  SUM(quantidade_matricula_educacao_basica) AS matriculas_rede
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2022
+  AND sigla_uf IN ('PA', 'AP', 'MA')
+GROUP BY sigla_uf, rede
+ORDER BY sigla_uf, rede;
+```
+
+---
+
+## Escolas urbanas e rurais
+
+```sql
+SELECT
+  sigla_uf,
+  tipo_localizacao,
+  COUNT(id_escola) AS total_escolas
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2022
+  AND sigla_uf IN ('PA', 'AP', 'MA')
+GROUP BY sigla_uf, tipo_localizacao
+ORDER BY sigla_uf, tipo_localizacao;
+```
+
+---
+
+## Quantidade de matrícula por município vários anos
+
+```sql
+SELECT
+  ano,
+  id_municipio,
+  rede,
+  SUM(quantidade_matricula_medio) AS total_matriculas
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE sigla_uf = 'PA'
+  AND ano BETWEEN 2022 AND 2024
+GROUP BY ano, id_municipio, rede
+ORDER BY ano, id_municipio, rede;
+```
+
+---
+
+## Evolução total sem rede
+
+```sql
+SELECT
+  ano,
+  rede,
+  SUM(quantidade_matricula_medio) AS total_matriculas
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE sigla_uf = 'PA'
+  AND ano BETWEEN 2022 AND 2024
+GROUP BY ano, rede
+ORDER BY ano, rede;
+```
+
+---
+
+## Bônus: Resultado com Brasil UNION ALL
+
+```sql
+SELECT
+  sigla_uf,
+  tipo_localizacao,
+  COUNT(id_escola) AS total_escolas
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2022
+  AND sigla_uf = 'PA'
+GROUP BY sigla_uf, tipo_localizacao
+
+UNION ALL
+
+SELECT
+  'BRASIL' AS sigla_uf,
+  tipo_localizacao,
+  COUNT(id_escola) AS total_escolas
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2022
+GROUP BY tipo_localizacao
+
+ORDER BY sigla_uf, tipo_localizacao;
+```
+
+---
+
+## Bônus: JOIN para o nome do município 2024
+
+```sql
+SELECT
+  esc.ano,
+  esc.id_municipio,
+  mun.nome AS nome_municipio,
+  esc.rede,
+  SUM(esc.quantidade_matricula_medio) AS total_matriculas
+FROM `basedosdados.br_inep_censo_escolar.escola` AS esc
+LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` AS mun
+  ON esc.id_municipio = mun.id_municipio
+WHERE esc.sigla_uf = 'PA'
+  AND esc.ano = 2024
+GROUP BY esc.ano, esc.id_municipio, mun.nome, esc.rede
+ORDER BY esc.ano, mun.nome, esc.rede;
+```
+
 
 Qualquer dúvida, entre em contato pelo email: [leidiane.santos@ifap.edu.br]
