@@ -52,19 +52,27 @@ Bem-vindo(a) à página oficial da nossa oficina! Aqui você encontrará todos o
 
 ---
 
-## 🔧 Pré-requisitos
+## 🛠️ Scripts SQL
 
-- Conta Google com acesso ao **BigQuery**  
-- Projeto criado no **Google Cloud**  
-- Acesso à internet para usar o console BigQuery  
-
----
-
-## 🛠️ Como usar os scripts SQL
-
-1. Faça download dos arquivos de seu interesse.  
+1. Selecionar colunas específicas:  
    ```bash
-   git clone https://github.com/anevsantos/dados-educ-ufpa.git
+SELECT   ano,
+  sigla_uf,
+  id_escola
+  FROM `basedosdados.br_inep_censo_escolar.escola`
+  WHERE ano = 2022
+LIMIT 10;
+
+2. Filtrar apenas escolas do Amapá (AP):
+   ```bash
+SELECT
+  ano,
+  sigla_uf,
+  id_escola
+FROM `basedosdados.br_inep_censo_escolar.escola`
+WHERE ano = 2024
+AND sigla_uf = 'AP'
+LIMIT 10;
 
 
 Qualquer dúvida, entre em contato pelo email: [leidiane.santos@ifap.edu.br]
